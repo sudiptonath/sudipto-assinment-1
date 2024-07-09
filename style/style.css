@@ -1,0 +1,46 @@
+
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+#button{
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.banner-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/Hero-bg.png);
+}
+/* .banner-description{
+    padding: 30px 150px 45px 300px;
+} */
+ #heading{
+    font-weight: 700;
+    font-size: 50px;
+    /* margin-left: 8%; */
+        text-align: center;
+ }
+
+  #para{
+    margin: 24px 400px;
+    text-align: center;
+ }
+ #btn{
+    width: 230px;
+    height: 50px;
+    margin: 15px 500px 10px 745px;
+    border-radius: 10px;
+background-color: black;
+color: white;
+font-size: 20px;
+align-items: center;
+ }
