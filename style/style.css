@@ -104,3 +104,34 @@ font-size: 20px;
     
 
  }
+ #h2{
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 20px;
+ }
+ .luck{
+    color: #0D1321;
+ }
+ .inspiration{
+    width: 1140px;
+    /* height: 750px; */
+    margin: 80px auto;
+    
+
+ }
+ .inspiration-title{
+    text-align: center;
+    padding: 0px 145px 50px 145px;
+ }
+ .inspiration-description{
+    text-align: center;
+    border: 2px solid rgba(13, 19, 33, 0.2);
+    width: 1140px;
+    height: 600px;
+    padding:30px;
+    border-radius: 10px;
+ }
+.benefit{
+    width: 1140px;
+    height: 600px;
+}
