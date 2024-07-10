@@ -177,3 +177,39 @@ a{
    border-radius: 10px;
    padding: 20px 20px 20px 20px;
 }
+.support{
+   width: 1140px;
+   height: 280px;
+   margin: 50px auto;
+   background-image: url(../assets/handshake.jpg);
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border-radius: 10px;
+}
+.input{
+   width: 550px;
+   height: 40px;
+   border-radius: 10px;
+   margin-top: 20px;
+   border: none;
+}
+.support-title{
+   color: white;
+   font-size: 32px;
+   font-weight: bold;
+   margin-bottom: 30px;
+}
+.support-description {
+   color: white;
+   font-size: 16px;
+}
+.submit{
+   width: 120px;
+   height: 40px;
+   border-radius: 10px;
+}
+
