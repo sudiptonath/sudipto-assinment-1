@@ -3,18 +3,28 @@
     margin: 0;
     padding: 0;
 }
-
+#dot{
+   color: blue;
+}
 
 nav{
     display: flex;
-    justify-content: space-between;
-    margin: 50px 150px;
+    height: 131px;
+    /* justify-content: space-between; */
+    /* margin: 35px 150px; */
+        /* text-align: center; */
+justify-content: space-around;
+align-items: center;
+gap: 770px;
+font-family: Azeret Mono;
 }
 #button{
     width: 180px;
     height: 50px;
     border-radius: 5px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
+    /* text-align: center; */
+    border: 2px solid blue;
 }
 .banner-title{
     display: flex;
@@ -41,24 +51,23 @@ nav{
     width: 230px;
     height: 50px;
         border-radius: 10px;
-background-color: black;
-color: white;
+        background-color: black;
 font-size: 20px;
  }
  .development-header{
     width: 1140px;
-    height: 1050px;
+    height: 1100px;
     margin:75px auto;
     text-align: center;
     padding: 80px 100px;
     font-family:Azeret mono;
     background-color: rgba(13, 19, 33, 0.02)
+
    
  }
  .development-title-0{
     text-align: center;
-    
- }
+     }
  .development-title{
     margin-bottom: 20px;
  }
@@ -77,9 +86,9 @@ font-size: 20px;
  .developmet-colum-1{
     display: flex;
     justify-content: space-around;
-    /* width: 950px;
-    height: 340px; */
-    gap: 100px;
+       gap: 100px;
+       background-color: rgb(255, 255, 255);
+       
  }
  .developmet-colum-2{
     display: flex;
@@ -87,15 +96,16 @@ font-size: 20px;
     margin-top: 30px;
     /* width: 950px;
     height: 350px; */
-
+background-color: rgb(255, 255, 255);
  }
  .developmet-colum-3{
     display: flex;
     justify-content: space-around;
+    /* margin: 30px auto; */
     margin-top: 30px;
     /* width: 950px;
     height: 350px; */
-    gap: 50px;
+   background-color: rgb(255, 255, 255);
 
  }
  .development-btn{
@@ -120,6 +130,7 @@ font-size: 20px;
     width: 1140px;
     /* height: 750px; */
     margin: 80px auto;
+    font-family: Azeret Mono;
     
 
  }
@@ -132,20 +143,29 @@ font-size: 20px;
     border: 2px solid rgba(13, 19, 33, 0.2);
     width: 1140px;
     height: 600px;
-    padding:30px;
+    padding:20px;
     border-radius: 10px;
  }
  
 .benefit{
     width: 1140px;
     height: 600px;
+    border-radius: 7px;
 }
 .text-center{
    text-align: center;
 }
+.extrabold{
+   font-weight: 700;
+   font-size: 24px;
+}
+.bo16{
+   font-size: 16px;
+}
 .skills{
    width: 1140px;
    margin: 80px auto;
+   font-family: Azeret Mono;
    
 }
 .skill-container{
@@ -189,13 +209,15 @@ a{
    justify-content: center;
    align-items: center;
    border-radius: 10px;
+   font-family: Azeret Mono;
 }
 .input{
    width: 550px;
    height: 40px;
-   border-radius: 10px;
+   border-radius: 8px;
    margin-top: 20px;
    border: none;
+   font-family: Azeret Mono;
 }
 .support-title{
    color: white;
@@ -210,6 +232,24 @@ a{
 .submit{
    width: 120px;
    height: 40px;
-   border-radius: 10px;
+   border-radius: 8px;
+   font-family: Azeret Mono;
 }
-
+.footer{
+   height: 70px;
+   display: flex;
+   justify-content: space-around;
+   background-color: rgba(13, 19, 33, 0.03);
+   padding: auto;
+   align-items: center;
+   font-family: Azeret Mono;
+}
+.gap{
+   display: flex;
+   gap: 30px;
+}
+.last{
+   text-decoration: none;
+   
+color: white;
+}
